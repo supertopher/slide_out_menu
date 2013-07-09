@@ -1,0 +1,98 @@
+.container {
+/*
+  If you have a block-level element of a certain width, margin: 0 auto;
+  will how you center it inside its parent container.
+
+  See: http://bluerobot.com/web/css/center1.html
+
+  Don't change the container width.
+  */
+  margin: 0 auto auto 19%;
+  width: 75%;
+}
+
+.submit_button{
+  margin-left: 4%;
+}
+
+header h1{
+  display: inline-block;
+  font-weight: bolder;
+}
+
+nav:hover {
+  left: 0;
+}
+
+.nav_label{
+  background-color: #D4D3D4;
+  padding: 0.5em;
+  position: fixed;
+  top: 9em;
+  left: -5%;
+  color: red;
+  -moz-transform: rotate(90.0deg);  /* FF3.5+ */
+  -o-transform: rotate(90.0deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(90.0deg);  /* Saf3.1+, Chrome */
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-shadow: 5px -3px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px -3px 5px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px -3px 5px rgba(50, 50, 50, 0.75);
+}
+nav{
+  background-color: #D4D3D4;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  left: -13%;
+  top: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  /*display: inline-block;*/
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav ul li{
+  padding-left: 8%;
+  line-height: 2.2em;
+  border-bottom: 2px black solid;
+}
+
+nav ul li a{
+  font-weight: bolder;
+  text-decoration: none;
+  color:  black;
+}
+
+#registration{
+  border: gray 1px dotted;
+  padding: 0.5%;
+  margin-top: -4em;
+  float: right;
+  background-color: #D4D3D4;
+}
+
+#tour{
+  float: left;
+  width: 50%;
+}
+
+h2{
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+h4:before{
+  clear: both;
+}
